@@ -1,4 +1,5 @@
 const mongo = require('mongoose')
+const validator = require('validator')
 const dotenv = require('dotenv')
 
 dotenv.config({ path: './config.env' })
